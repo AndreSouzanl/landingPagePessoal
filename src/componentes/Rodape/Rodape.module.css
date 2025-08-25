@@ -1,0 +1,11 @@
+
+.rodape{
+  display : flex;
+  justify-content: center;
+  align-items:center;
+  font-size: 2rem;
+   background: linear-gradient(100deg, #00bcd4, #ff4081);
+  color: #fff;
+  height: 10vh;
+};
+

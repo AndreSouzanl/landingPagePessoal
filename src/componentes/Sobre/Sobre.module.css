@@ -1,0 +1,18 @@
+.container {
+  border: 2px solid red;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.container h2 {
+  text-align: center;
+  padding: 1rem;
+}
+
+.container p {
+  line-height: 2rem;
+  border-bottom: 2px solid #fff;
+  padding: 0.8rem;
+  text-align: justify;
+  font-size:1.3rem
+}

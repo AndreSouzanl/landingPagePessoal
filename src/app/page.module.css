@@ -1,0 +1,16 @@
+.containerPrincipal {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+   
+}
+.main {
+  color: white;
+  padding: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+  flex: 1;
+  
+}
+
