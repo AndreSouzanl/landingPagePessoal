@@ -22,11 +22,16 @@
 .link {
   color: white;
   text-decoration: none;
-  background: linear-gradient(90deg, #ff4081, #00bcd4);
+  background:#00bcd4;
   text-align: center;
   padding: 0.8rem;
   cursor: pointer;
   border-radius: 1rem;
   width: 100%;
   margin-top: auto;
+  font-size: 1.3rem
+}
+
+.link:hover{
+  background: linear-gradient(90deg, #ff4081, #00bcd4);
 }
