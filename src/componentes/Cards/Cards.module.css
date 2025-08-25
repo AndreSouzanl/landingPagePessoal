@@ -1,0 +1,32 @@
+.container_cards {
+  flex: 1 1 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #edecec;
+  padding: 2rem;
+  border-radius: 0.8rem;
+}
+
+.container_cards h3 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.container_cards p {
+  text-align: justify;
+  line-height: 1.6rem;
+  font-size: 18px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  background: linear-gradient(90deg, #ff4081, #00bcd4);
+  text-align: center;
+  padding: 0.8rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  width: 100%;
+  margin-top: auto;
+}

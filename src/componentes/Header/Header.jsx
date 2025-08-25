@@ -9,7 +9,7 @@ export default function Header(props){
         </div>
         <nav className={estilos.links_navegacao}>
         <Link href={'#sobre'}>Sobre Mim</Link>
-        <Link href={'#sobre'}>Projetos</Link>
+        <Link href={'#projetos'}>Projetos</Link>
         <Link href={'#sobre'}>Tecnologias</Link>
         </nav>
       </div>
