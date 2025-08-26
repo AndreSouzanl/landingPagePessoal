@@ -18,10 +18,10 @@ export default function Projetos(props) {
           texto="Agenda Online"
         />
         <Cards
-          titulo="Otica Vida"
-          descricao="Projeto construido atraves de estudos na plataforma Dev media. projeto construido com react"
-          url="https://site-estudo-otica-vida.vercel.app/"
-          texto="Otica Vida"
+          titulo="Cardapio"
+          descricao="Projeto cardapio construindo na missão da devMedia. projeto construido com react + nextjs"
+          url="https://menu-beta-ten.vercel.app/"
+          texto="Cardapio"
         />
         <Cards
           titulo="Plataforma Ead"
