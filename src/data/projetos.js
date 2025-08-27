@@ -3,7 +3,7 @@ import icone from "../data/icone.js";
 const dados = [
   {
     imagem: icone.list,
-    titulo: "Lista compras",
+    titulo: "Lista Compras",
     url: "https://lista-compras-mes.vercel.app/",
     texto: "Lista Compras",
   },

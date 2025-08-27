@@ -1,10 +1,8 @@
 "use client";
-
 import { useState } from "react";
 import Cards from "../Cards/Cards";
 import styles from "./Projeto.module.css";
 import dados from "@/data/projetos";
-
 export default function Projetos(props) {
   const [quantidadeVisivel, setQuantidadeVisivel] = useState(4);
   function verMais() {
