@@ -17,19 +17,7 @@ export default function Projetos(props) {
     <section className={styles.container_projetos} id="projetos">
       <h2>{props.titulo}</h2>
 
-      <div className={styles.container_button}>
-        {quantidadeVisivel < dados.length ? (
-          <button className={styles.ver_mais} onClick={verMais}>
-            Ver mais
-          </button>
-        ) : (
-          dados.length > 4 && (
-            <button className={styles.ver_mais} onClick={verMenos}>
-              Ver menos
-            </button>
-          )
-        )}
-      </div>
+      
 
       <div className={styles.container_card}>
         {dados.slice(0, quantidadeVisivel).map((projeto, index) => (
@@ -42,6 +30,19 @@ export default function Projetos(props) {
             texto={projeto.texto}
           />
         ))}
+      </div>
+      <div className={styles.container_button}>
+        {quantidadeVisivel < dados.length ? (
+          <button className={styles.ver_mais} onClick={verMais}>
+            Ver mais
+          </button>
+        ) : (
+          dados.length > 4 && (
+            <button className={styles.ver_mais} onClick={verMenos}>
+              Ver menos
+            </button>
+          )
+        )}
       </div>
     </section>
   );
