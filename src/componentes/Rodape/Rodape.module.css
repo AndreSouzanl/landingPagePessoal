@@ -3,19 +3,51 @@
   justify-content: center;
   align-items: center;
   font-size: 2rem;
-  background: linear-gradient(100deg, #00bcd4, #ff4081);
+
   color: #fff;
   height: 10vh;
 }
-.redes_sociais {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 1rem;
+
+.footer {
+    background: linear-gradient(100deg, #00bcd4, #ff4081);
+  color: #e2e8f0;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.redes_sociais p {
-  text-align: center;
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  font-size: 2rem;
+  color: #61dbfb;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon:hover {
+  color: #00ff99;
+  transform: scale(1.2);
+}
+
+.copy {
+  font-size: 0.9rem;
   color: #fff;
 }
+
+.copy span {
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  .icon {
+    font-size: 1.6rem;
+  }
+}
+

@@ -68,7 +68,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin: 12px 0;
   color: #e2e8f0;
   transition: color 0.2s ease;
@@ -89,5 +89,15 @@
   color: #e2e8f0;
   transition: color 0.2s ease;
 }
+.container_backend li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.2rem;
+  margin: 12px 0;
+  color: #e2e8f0;
+  transition: color 0.2s ease;
+}
+
 
 

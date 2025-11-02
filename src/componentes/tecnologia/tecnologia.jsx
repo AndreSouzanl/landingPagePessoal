@@ -20,6 +20,7 @@ export default function Tecnologia() {
             <li>Node.js</li>
             <li>Express.js</li>
             <li>Banco de Dados SQL</li>
+            <li>Api com Node</li>
           </ul>
         </div>
       </div>
