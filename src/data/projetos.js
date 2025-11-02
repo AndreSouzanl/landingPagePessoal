@@ -19,18 +19,11 @@ const dados = [
     url: "https://menu-beta-ten.vercel.app/",
     texto: "Cardapio",
   },
-
   {
-    imagem: icone.ead,
-    titulo: "Projeto Ead",
+    imagem: icone.menu,
+    titulo: "Cardapio",
     url: "https://menu-beta-ten.vercel.app/",
-    texto: "Projeto Ead",
-  },
-  {
-    imagem: icone.ead,
-    titulo: "Projeto Ead",
-    url: "https://menu-beta-ten.vercel.app/",
-    texto: "Projeto Ead",
+    texto: "Cardapio",
   },
 ];
 export default dados;

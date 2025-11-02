@@ -11,3 +11,18 @@
   flex: 1;
 }
 
+.foto_perfil{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.foto { 
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  border: 4px solid #ffffff;
+  object-fit: cover;
+ 
+}
