@@ -1,0 +1,93 @@
+/* Container geral */
+.container {
+  padding: 3rem 1rem;
+  border-radius: 12px;
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #0f172a; /* fundo escuro moderno */
+  color: #f1f5f9;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Título principal */
+.container h1 {
+  font-size: 2.4rem;
+  text-align: center;
+  color: #61dbfb; /* azul React */
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+/* Área das linguagens (cards lado a lado) */
+.container_linguagens {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* Estilo dos blocos Front/Back */
+.container_frontend,
+.container_backend {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 2rem;
+  width: 280px;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.container_frontend:hover,
+.container_backend:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(97, 219, 251, 0.25);
+}
+
+/* Subtítulos */
+.container_frontend h2,
+.container_backend h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  border-bottom: 2px solid #61dbfb;
+  padding-bottom: 0.5rem;
+  width: 100%;
+}
+
+
+.container_frontend ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container_frontend li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1rem;
+  margin: 12px 0;
+  color: #e2e8f0;
+  transition: color 0.2s ease;
+}
+
+.container_backend ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container_backend li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1rem;
+  margin: 12px 0;
+  color: #e2e8f0;
+  transition: color 0.2s ease;
+}
+
+

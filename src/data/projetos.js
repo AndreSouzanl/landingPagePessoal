@@ -20,10 +20,10 @@ const dados = [
     texto: "Cardapio",
   },
   {
-    imagem: icone.menu,
-    titulo: "Cardapio",
-    url: "https://menu-beta-ten.vercel.app/",
-    texto: "Cardapio",
+    imagem: icone.sorveteria,
+    titulo: "Sorveteria",
+    url: "https://sorveteria-gelateria-neon.vercel.app/",
+    texto: "Sorveteria ",
   },
 ];
 export default dados;
