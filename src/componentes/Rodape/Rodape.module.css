@@ -1,15 +1,5 @@
-.rodape {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-
-  color: #fff;
-  height: 10vh;
-}
-
 .footer {
-    background: linear-gradient(100deg, #00bcd4, #ff4081);
+  background: linear-gradient(100deg, #00bcd4, #ff4081);
   color: #e2e8f0;
   padding: 2rem 1rem;
   text-align: center;
@@ -50,4 +40,3 @@
     font-size: 1.6rem;
   }
 }
-
