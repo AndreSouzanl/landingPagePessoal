@@ -2,7 +2,7 @@ import styles from "./tecnologia.module.css";
 export default function Tecnologia() {
   return (
     <div className={styles.container} id="tecnologia">
-      <h1>Linguagem Estudadas</h1>
+      <h1>Tecnologias</h1>
 
       <div className={styles.container_linguagens}>
         <div className={styles.container_frontend}>
