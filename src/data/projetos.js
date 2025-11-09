@@ -25,5 +25,6 @@ const dados = [
     url: "https://sorveteria-gelateria-neon.vercel.app/",
     texto: "Sorveteria ",
   },
+ 
 ];
 export default dados;
