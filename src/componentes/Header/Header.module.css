@@ -46,10 +46,20 @@
 }
 
 @media (min-width: 310px) and (max-width: 1024px) {
+  .header {
+  color: #fff;
+  width: 100%;
+  height: 20vh;
+  display: flex; /* garante alinhamento */
+  align-items: center; /* centraliza verticalmente */
+  background: linear-gradient(100deg, #00bcd4, #ff4081);
+}
   .header_container {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
 
     width: 100%;
     max-width: 1200px;
@@ -65,7 +75,7 @@
 
   /* Ajusta tamanho e espaçamento dos links */
   .links_navegacao a {
-    font-size: 1rem;
-    display: none;
+    font-size: 1.3rem;
+    
   }
 }
